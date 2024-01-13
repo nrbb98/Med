@@ -129,6 +129,8 @@ public class Member {
 
 	@Override
 	public String toString() {
+
+System.out.println("for git practise");
 		return "Member [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", dob=" + dob
 				+ ", socialSecurityNumber=" + socialSecurityNumber + ", medicaidId=" + medicaidId + ", age=" + age
 				+ ", dod=" + dod + "]";
